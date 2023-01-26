@@ -1,4 +1,7 @@
-Fit code for boosted H(bb) production mode measurements
+Fit code for boosted H(bb) and Z(bb) production mode measurements with
+
+- Run 2 offline
+- Run 3 scouting
 
 Set up CMSSW and combine:
 ```

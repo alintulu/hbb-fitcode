@@ -1,0 +1,42 @@
+# Datacard for <Channel (muonCRfail2018) instance at 0x7fe8d8d725d0> generated on 2023-01-26 09:56:58.247972
+imax 1 # number of categories ('bins' but here we are using shape templates)
+jmax 7 # number of samples minus 1
+kmax 25 # number of nuisance parameters
+shapes * muonCRfail2018 testModel_2018.root testModel_2018:muonCRfail2018_$PROCESS testModel_2018:muonCRfail2018_$PROCESS_$SYSTEMATIC
+bin muonCRfail2018
+observation 1920.000
+bin                                     muonCRfail2018  muonCRfail2018  muonCRfail2018  muonCRfail2018  muonCRfail2018  muonCRfail2018  muonCRfail2018  muonCRfail2018
+process                                            QCD           Wjets           Zjets            EWKW            EWKZ           ttbar         singlet              VV
+process                                              1               2               3               4               5               6               7               8
+rate                                           289.518           2.569           0.513         196.960           0.212        1181.026         123.575           6.229
+CMS_hbb_PU_2018 lnN                                  -     1.078/1.023     1.067/0.928     0.987/1.029     1.116/0.818     0.986/1.033     0.989/1.027     0.999/1.002
+CMS_hbb_btagSFbc_2018 lnN                            -     0.988/0.963     0.983/0.958     0.974/0.955               -     0.977/0.955     0.976/0.952     0.996/0.991
+CMS_hbb_btagSFbc_correlated lnN                      -     0.985/0.966     0.980/0.961     0.971/0.958               -     0.973/0.959     0.972/0.956     0.995/0.992
+CMS_hbb_btagSFlight_2018 lnN                         -     0.992/0.999     0.995/0.999     1.020/1.005     0.989/0.998     1.005/1.001     1.006/1.001     1.171/1.043
+CMS_hbb_btagSFlight_correlated lnN                   -     0.993/0.999     0.995/0.998     1.019/1.006     0.989/0.998     1.005/1.001     1.005/1.001     1.164/1.049
+CMS_hbb_e_veto_2018 lnN                          1.005           1.005           1.005           1.005           1.005           1.005           1.005           1.005
+CMS_hbb_mu_trigger_2018 lnN                          -     1.002/0.998     1.003/0.997     1.002/0.998     1.002/0.998     1.002/0.998     1.002/0.998     1.001/0.999
+CMS_hbb_tau_veto_2018 lnN                        1.005           1.005           1.005           1.005           1.005           1.005           1.005           1.005
+CMS_hbb_veff_2018 lnN                                -           1.111           1.111           1.111           1.111           1.111           1.111           1.111
+CMS_lumi_13TeV_2018 lnN                          1.015           1.015           1.015           1.015           1.015           1.015           1.015           1.015
+CMS_lumi_13TeV_correlated_ lnN                   1.020           1.020           1.020           1.020           1.020           1.020           1.020           1.020
+CMS_lumi_13TeV_correlated_20172018 lnN           1.002           1.002           1.002           1.002           1.002           1.002           1.002           1.002
+CMS_mu_id_2018 lnN                                   -     1.001/0.999     1.001/0.999     1.001/0.999     1.001/0.999     1.001/0.999     1.001/0.999     1.001/0.999
+CMS_mu_iso_2018 lnN                                  -     1.000/1.000     1.000/1.000     1.000/1.000     1.000/1.000     1.000/1.000     1.000/1.000     1.000/1.000
+CMS_res_j_2018 lnN                                   -     1.031/1.031     1.035/1.035     1.030/1.028     1.006/1.006     1.040/1.022     1.040/1.031     0.928/0.898
+CMS_scale_j_2018 lnN                                 -     1.031/0.998     0.947/1.035     1.048/1.009     1.006/1.006     1.068/1.003     1.062/1.002     0.984/0.898
+CMS_ues_j_2018 lnN                                   -     1.031/1.031     1.035/1.035     1.029/1.029     1.006/1.006     1.034/1.034     1.036/1.036     0.928/0.928
+muonCRfail2018_EWKW_mcstat lnN                       -               -               -           1.041               -               -               -               -
+muonCRfail2018_EWKZ_mcstat lnN                       -               -               -               -           2.000               -               -               -
+muonCRfail2018_QCD_mcstat lnN                    1.233               -               -               -               -               -               -               -
+muonCRfail2018_VV_mcstat lnN                         -               -               -               -               -               -               -           1.182
+muonCRfail2018_Wjets_mcstat lnN                      -           1.221               -               -               -               -               -               -
+muonCRfail2018_Zjets_mcstat lnN                      -               -           1.363               -               -               -               -               -
+muonCRfail2018_singlet_mcstat lnN                    -               -               -               -               -               -           1.038               -
+muonCRfail2018_ttbar_mcstat lnN                      -               -               -               -               -           1.020               -               -
+tqqeffSF_2018 extArg testModel_2018.root:testModel_2018
+tqqnormSF_2018 extArg testModel_2018.root:testModel_2018
+tqqeffSF_2018_effect_muonCRfail2018_ttbar rateParam muonCRfail2018 ttbar (((1-@0)*0.017982511362417228)+1) tqqeffSF_2018
+tqqeffSF_2018_effect_muonCRfail2018_singlet rateParam muonCRfail2018 singlet (((1-@0)*0.017982511362417228)+1) tqqeffSF_2018
+tqqnormSF_2018_effect_muonCRfail2018_ttbar rateParam muonCRfail2018 ttbar (1*@0) tqqnormSF_2018
+tqqnormSF_2018_effect_muonCRfail2018_singlet rateParam muonCRfail2018 singlet (1*@0) tqqnormSF_2018

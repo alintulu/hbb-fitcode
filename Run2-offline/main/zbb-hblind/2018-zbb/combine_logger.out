@@ -1,0 +1,10 @@
+INFO: (function: improveOnce) CascadeMinimizer.cc: 167 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 190 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 195 -- Minimization success! status=0
+INFO: (function: anyParameterAtBoundaries) utils.cc: 982 -- Found parameter tf_MCtempl_ggf2018_deco0 at boundary (within ~1sigma): 4+/-0.04201
+INFO: (function: minimize) CascadeMinimizer.cc: 478 -- After fit, some parameters are found at the boundary (within ~1sigma)
+INFO: (function: improveOnce) CascadeMinimizer.cc: 167 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 190 -- Minimisation finished with status=-1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 196 -- Minimization ended with latest status != 0 or 1
+INFO: (function: anyParameterAtBoundaries) utils.cc: 982 -- Found parameter tf_MCtempl_ggf2018_deco0 at boundary (within ~1sigma): 4+/-1.03942
+INFO: (function: minimize) CascadeMinimizer.cc: 478 -- After fit, some parameters are found at the boundary (within ~1sigma)

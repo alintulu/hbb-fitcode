@@ -1,0 +1,39 @@
+# Datacard for <Channel (muonCRpass2018) instance at 0x7fe8d8d72590> generated on 2023-01-26 09:56:58.245591
+imax 1 # number of categories ('bins' but here we are using shape templates)
+jmax 4 # number of samples minus 1
+kmax 22 # number of nuisance parameters
+shapes * muonCRpass2018 testModel_2018.root testModel_2018:muonCRpass2018_$PROCESS testModel_2018:muonCRpass2018_$PROCESS_$SYSTEMATIC
+bin muonCRpass2018
+observation 39.000
+bin                                     muonCRpass2018  muonCRpass2018  muonCRpass2018  muonCRpass2018  muonCRpass2018
+process                                            QCD            EWKW           ttbar         singlet              VV
+process                                              1               2               3               4               5
+rate                                            17.583           3.163          20.785           2.675           1.080
+CMS_hbb_PU_2018 lnN                                  -     1.074/1.008     0.989/1.016     0.929/1.086     0.868/1.162
+CMS_hbb_btagSFbc_2018 lnN                            -     0.975/0.948     0.978/0.945     0.974/0.932     1.008/0.976
+CMS_hbb_btagSFbc_correlated lnN                      -     0.971/0.953     0.973/0.950     0.968/0.938     1.004/0.980
+CMS_hbb_btagSFlight_2018 lnN                         -     0.996/1.000     0.995/0.999     0.993/0.998     0.985/0.998
+CMS_hbb_btagSFlight_correlated lnN                   -     0.996/1.000     0.995/0.999     0.993/0.998     0.985/0.997
+CMS_hbb_e_veto_2018 lnN                          1.005           1.005           1.005           1.005           1.005
+CMS_hbb_mu_trigger_2018 lnN                          -     1.002/0.998     1.002/0.998     1.002/0.998     1.003/0.997
+CMS_hbb_tau_veto_2018 lnN                        1.005           1.005           1.005           1.005           1.005
+CMS_hbb_veff_2018 lnN                                -           1.111           1.111           1.111           1.111
+CMS_lumi_13TeV_2018 lnN                          1.015           1.015           1.015           1.015           1.015
+CMS_lumi_13TeV_correlated_ lnN                   1.020           1.020           1.020           1.020           1.020
+CMS_lumi_13TeV_correlated_20172018 lnN           1.002           1.002           1.002           1.002           1.002
+CMS_mu_id_2018 lnN                                   -     1.001/0.999     1.001/0.999     1.001/0.999     1.002/0.998
+CMS_mu_iso_2018 lnN                                  -     1.000/1.000     1.000/1.000     1.000/1.000     1.000/1.000
+CMS_res_j_2018 lnN                                   -     1.043/1.043     1.047/1.039     1.055/1.055     1.017/1.017
+CMS_scale_j_2018 lnN                                 -     0.949/0.905     1.059/1.027     1.055/1.055     1.017/1.017
+CMS_ues_j_2018 lnN                                   -     1.043/1.043     1.044/1.044     1.055/1.055     1.017/1.017
+muonCRpass2018_EWKW_mcstat lnN                       -           1.308               -               -               -
+muonCRpass2018_QCD_mcstat lnN                    1.978               -               -               -               -
+muonCRpass2018_VV_mcstat lnN                         -               -               -               -           1.420
+muonCRpass2018_singlet_mcstat lnN                    -               -               -           1.255               -
+muonCRpass2018_ttbar_mcstat lnN                      -               -           1.102               -               -
+tqqeffSF_2018 extArg testModel_2018.root:testModel_2018
+tqqnormSF_2018 extArg testModel_2018.root:testModel_2018
+tqqeffSF_2018_effect_muonCRpass2018_ttbar rateParam muonCRpass2018 ttbar (1*@0) tqqeffSF_2018
+tqqeffSF_2018_effect_muonCRpass2018_singlet rateParam muonCRpass2018 singlet (1*@0) tqqeffSF_2018
+tqqnormSF_2018_effect_muonCRpass2018_ttbar rateParam muonCRpass2018 ttbar (1*@0) tqqnormSF_2018
+tqqnormSF_2018_effect_muonCRpass2018_singlet rateParam muonCRpass2018 singlet (1*@0) tqqnormSF_2018
